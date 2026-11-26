@@ -1,0 +1,9 @@
+# downloaded data (see scripts/download_data.py)
+data/neuron_annotations.tsv
+data/proofread_connections_783.feather
+data/*.part
+
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+.vscode/

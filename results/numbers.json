@@ -1,0 +1,140 @@
+{
+  "replication": [
+    {
+      "side": "right",
+      "pair": "DM1–DM4",
+      "obs": 95,
+      "null_mean": 52.1,
+      "z": 7.37,
+      "p": 0.005
+    },
+    {
+      "side": "right",
+      "pair": "DM1–VM3",
+      "obs": 54,
+      "null_mean": 28.7,
+      "z": 5.26,
+      "p": 0.005
+    },
+    {
+      "side": "right",
+      "pair": "DM1–VA2",
+      "obs": 78,
+      "null_mean": 51.7,
+      "z": 4.55,
+      "p": 0.005
+    },
+    {
+      "side": "right",
+      "pair": "DM4–VM3",
+      "obs": 41,
+      "null_mean": 22.4,
+      "z": 4.45,
+      "p": 0.005
+    },
+    {
+      "side": "left",
+      "pair": "DM1–DM4",
+      "obs": 102,
+      "null_mean": 53.9,
+      "z": 7.37,
+      "p": 0.005
+    },
+    {
+      "side": "left",
+      "pair": "DM1–VM3",
+      "obs": 64,
+      "null_mean": 36.1,
+      "z": 5.37,
+      "p": 0.005
+    },
+    {
+      "side": "left",
+      "pair": "DM1–VA2",
+      "obs": 80,
+      "null_mean": 48.8,
+      "z": 5.19,
+      "p": 0.005
+    },
+    {
+      "side": "left",
+      "pair": "DM4–VM3",
+      "obs": 43,
+      "null_mean": 26.1,
+      "z": 3.87,
+      "p": 0.005
+    }
+  ],
+  "threshold_sweep_right": [
+    {
+      "thresh": 1,
+      "n_kc": 2390,
+      "mean_in_degree": 5.12,
+      "z_DM1_DM4": 6.67
+    },
+    {
+      "thresh": 3,
+      "n_kc": 2373,
+      "mean_in_degree": 4.47,
+      "z_DM1_DM4": 7.91
+    },
+    {
+      "thresh": 5,
+      "n_kc": 2334,
+      "mean_in_degree": 4.14,
+      "z_DM1_DM4": 7.17
+    },
+    {
+      "thresh": 10,
+      "n_kc": 2155,
+      "mean_in_degree": 3.15,
+      "z_DM1_DM4": 4.4
+    }
+  ],
+  "valence_capacity": {
+    "P": [
+      50,
+      100,
+      200,
+      400
+    ],
+    "PN": [
+      0.964,
+      0.864,
+      0.689,
+      0.657
+    ],
+    "real": [
+      0.992,
+      0.984,
+      0.98,
+      0.925
+    ],
+    "shuf_mean": [
+      0.999,
+      0.993,
+      0.982,
+      0.925
+    ],
+    "shuf_sd": [
+      0.002,
+      0.002,
+      0.007,
+      0.007
+    ]
+  },
+  "participation_ratio": {
+    "generic": {
+      "PN": 51.5,
+      "real": 108.7,
+      "shuf_mean": 123.1,
+      "shuf_sd": 0.8
+    },
+    "food": {
+      "PN": 50.4,
+      "real": 86.0,
+      "shuf_mean": 100.9,
+      "shuf_sd": 1.4
+    }
+  }
+}
