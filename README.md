@@ -1,4 +1,4 @@
-# From neurons to connectome analysis: a hands-on FlyWire course
+# From neurons to connectome analysis: a hands-on FlyWire project
 
 A beginner-friendly, notebook-based course that goes from "what is a neuron?" to a real, small research analysis on the **FlyWire whole-brain connectome** of *Drosophila*.
 
